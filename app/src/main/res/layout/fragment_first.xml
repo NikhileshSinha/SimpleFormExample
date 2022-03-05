@@ -33,7 +33,10 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txt1"
@@ -44,7 +47,10 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txt2"
@@ -55,7 +61,10 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txt3"
@@ -68,19 +77,28 @@
             android:id="@+id/check1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Is college complete ?" />
+            android:text="Is college complete ?"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
 
         <CheckBox
             android:id="@+id/check2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Are you happy?" />
+            android:text="Are you happy?"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
 
         <RadioGroup
             android:id="@+id/radioGroup1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
 
             <TextView
                 android:id="@+id/txt001"
@@ -105,8 +123,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="418dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="28dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
